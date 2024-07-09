@@ -14,3 +14,11 @@ dependencies {
 application {
     mainClass = 'com.project.currencyconverter.Main'
 }
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+    }
+}
